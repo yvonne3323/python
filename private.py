@@ -1,5 +1,5 @@
 #私有属性
-'''
+
 class Cat(object):
     def __init__(self,new_name,new_age):
         self.name =new_name
@@ -123,7 +123,7 @@ class205.add_student(stu1) #将学生1对象关联到教室对象
 class205.add_student(stu2) #这样写,重新指向,会把stu1覆盖掉,只有stu2
 print(class205.student.name) #学生2
 
-'''
+
 #要想不覆盖,应该使用列表
 class Classroom(object):
     def __init__(self,name):
