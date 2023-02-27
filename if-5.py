@@ -1,5 +1,5 @@
 #if的三种写法
-
+#不要忘记冒号
 # if 条件：
 #     代码块
 
@@ -20,7 +20,7 @@
 #demo1(年龄判断)
 age = 17
 print("---if判断开始---")
-if age >= 18:
+if age >= 18: #格式比较严谨 和C语言不一样
     print("你可以看")
     print("你可以写")
 print("---if判断结束---")
@@ -56,7 +56,7 @@ if(int(height) <= 150):
 else:
     print("不可以进入")
 
-#没想好可以用pass
+#没想好可以用pass 这样可以先不报错
 if(int(height) <= 150):
     pass
 else:
@@ -108,7 +108,7 @@ else:
     print("输入有误")
 
 #demo2(判断季节)
-month = input("请输入月份：")
+month = input("请输入月份(1-12):")
 #可以先写好month=int(month),后面更简单
 #也可以不强调整形，但是数字要加引号
 if 1 <= int(month) <= 3:
@@ -130,12 +130,17 @@ ticket = True
 knife_length = 9
 
 if ticket:
+    #如果有票
     print("车票检查通过，准备安检")
+    #安检操作
     if knife_length <= 10:
+        #物品符合要求
         print("安检通过，可以进站")
     else:
+        #物品违规
         print("安检不通过，公安处理")
 else:
+    #如果没有票
     print("车票检查不通过，不可以进站")
 #想怎么嵌套都可以
 
