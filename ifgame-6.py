@@ -1,7 +1,7 @@
 #石头剪刀布
 
 #我的代码
-
+#一次性，结果固定
 hand = input("请输入：剪刀(0) 石头(1) 布(2):")
 if hand == "0":
     print("输了，不要走，洗洗手接着来，决战到天亮")
@@ -15,7 +15,7 @@ else:
 #老师代码
 import random
 player = int(input("请输入：剪刀(0) 石头(1) 布(2):"))
-computer = random.randint(0,2)
+computer = random.randint(0,2) #从0，1，2中随机取一个
 
 if(player == 0 and computer == 2) or (player == 1 and computer == 0) or (player == 2 and computer == 1):
     print("获胜，哈哈，你太厉害了")
