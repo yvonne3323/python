@@ -21,6 +21,8 @@ print(num2,type(num2)) # 2.5 float
 
 num3 = 5//2#取商 整型
 print(num3,type(num3)) # 2 int
+print(9//2) # 4
+print(-9//2) # -5 向下取整
 
 num4 = 5 % 2 #取余
 print(num4,type(num4)) # 1 int
@@ -47,3 +49,8 @@ print(n) #base 范围2-36 0
 f = 1.23e3
 print(f,type(f)) #1230.0 float
 print(0.4-0.1==0.3) #False 存在误差，差值绝对值足够小判断相等
+
+#所有字符串都是Unicode编码
+print(ord("a")) #97
+print(chr(97)) #a
+#数字字符的Unicode编码<大写字母<小写字母
