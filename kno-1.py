@@ -16,10 +16,17 @@ a=1
 #  str set list(列表) complex(复数)
 # String(字符串)...
 #type()函数可以查看变量的数据类型/交互模式下直接输入变量名
+
+#print(value,...,sep=' ',end='\n',file=sys.stdout,flush=False)
+#sep:分隔符，默认空格
+#end:结束符，默认换行
+#file:文件对象，默认sys.stdout
+#flush:刷新缓冲区，默认False
+
 print(type(100))
 print(100)
 print(type("hello world"))#str
-
+print("hello","world",sep="*",end="**")
 #标识符
 #1.字母、数字、下划线组成
 #2.不能以数字开头
