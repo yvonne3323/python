@@ -144,3 +144,10 @@ else:
     print("车票检查不通过，不可以进站")
 #想怎么嵌套都可以
 
+#简化版if语句
+num_1 = eval(input("请输入第一个数字："))
+num_2 = eval(input("请输入第二个数字："))
+#eval()函数可以将字符串转换成数字 也可计算()内的表达式
+min = num_1 if num_1 < num_2 else num_2
+print("最小值为：",min)
+
