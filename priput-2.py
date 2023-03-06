@@ -15,10 +15,15 @@ for i in range(1,3):
 
 print("我是%s,今年%d岁了,我的money是%f,我的钱是%.7f" % ("小明",18,3.14,3.14))
 #%f 6位小数 %.7f 7位小数
+#%c 字符及其ASCII码 %e/ %E 科学计数法 %o 八进制 %x 十六进制 %g %G 自动选择科学计数法或者小数
 
 #转义字符
 print("hello\nworld")#换行（反斜杠）
 print("hello\tworld")#制表符（Tab）
+print("hello\\world")#反斜杠
+print("hello\'world")#单引号
+print("hello\"world")#双引号
+print("hello\rworld")#回车 会把前面的内容覆盖掉
 
 #input()函数 字符串str
 print("请输入你的名字：")
