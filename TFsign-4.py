@@ -1,4 +1,9 @@
-#布尔类型：True，False
+#布尔类型(bool)：True，False
+#隐式转换为整型，True为1，False为0 
+print(True+1) #2
+#bool(x)函数，将x转换为布尔类型 0，空字符串，空列表，空元组，空字典，空集合，None都是False
+#其他都是True
+print(bool(0)) #False
 #程序执行方式：顺序，选择if，循环while
 
 #定义一个变量为True，打印我喜欢你，然后变量为False，打印我不喜欢你
