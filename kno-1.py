@@ -34,7 +34,9 @@ print("hello","world",sep="*",end="**")
 #4.不能是关键字if等
 #命名规范：小驼峰命名法myName，大驼峰FirstName，下划线send_msg
 #变量名，函数名<下划线开头>，类名<大驼峰>，全局变量<大写+下划线>
-
+import keyword
+print(keyword.kwlist)#查看关键字
+print(len(keyword.kwlist))#查看关键字个数
 
 
 
