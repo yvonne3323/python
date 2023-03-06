@@ -15,6 +15,8 @@ print(name3)
 name4="""hello"""
 print(name4)
 
+v = r"hello\n" #原始字符串，不转义
+print(v)
 #字符串切片
 
 #获取文件名(后缀 .txt .mp3 .mp4)如果是.png,可以上传到网站，否则不支持
