@@ -1,21 +1,20 @@
 #列表(可以包括任意类型的数据，但是一般不建议)
 nums = [11,22,33,44,55,66,77,88,99]
 names =["yvonne","lily","lucy"]
-
 print(names)
 print(names[0])
 
-print(names[3])
+#print(names[3])
 #越界，程序会报错
 
-print(names[0:2]) #2不包含
+print(names[0:2]) #2不包含 列表
 
 #遍历：依次取出列表中的每一个元素
 
 #while
 i=0
 while i<len(names): #len()获取列表的长度
-    print(names[i])
+    print(names[i]) #换行
     i+=1
 
 # for(不需要知道列表的长度)
@@ -33,7 +32,7 @@ names2 = ["老大","老二"]
 names.extend(names2)
 print(names)
 
-#insert() 在指定位置添加元素(多了相当于增加)
+#insert() 在指定位置添加元素(多了相当于增加) 准确来讲叫插入
 names.insert(1,"老大") #老大成为1
 print(names)
 
@@ -83,7 +82,7 @@ else:
     print("不可以浏览")
 
 #count #统计某个元素在列表中出现的次数
-print(names.count("lucy"))
+print(names.count("lily"))
 print(names.count("cc"))
 
 num=[1,4,7,8,3,5]
